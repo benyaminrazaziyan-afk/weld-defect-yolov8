@@ -155,3 +155,55 @@ PhD Student – Civil Engineering
 Sakarya University
 
 ---
+## 📥 Dataset
+
+The full dataset used in this study is not included in this repository due to size limitations.
+
+* Train: 2616 images
+* Validation: 293 images
+* Test: 165 images
+
+Download the dataset from the following link:
+👉 **[Download Dataset AND MAIN FILE](https://www.kaggle.com/datasets/benyaminrazaziyan/surface-weld-defect-dataset-crak-porosityspatter)**
+
+After downloading, extract the dataset and place it in the project directory as follows:
+
+```
+weld-defect-yolov8/
+└── data/
+    ├── train/
+    │   ├── images/
+    │   └── labels/
+    ├── valid/
+    │   ├── images/
+    │   └── labels/
+    └── test/
+        ├── images/
+        └── labels/
+```
+## ⚙️ Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/YOUR_USERNAME/weld-defect-yolov8.git
+cd weld-defect-yolov8
+```
+
+2. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+3. Download and extract the dataset into:
+
+```
+weld-defect-yolov8/data/
+```
+
+4. Run training:
+
+```
+python scripts/train.py
+```
